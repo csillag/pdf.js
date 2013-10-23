@@ -173,7 +173,7 @@ chrome.webRequest.onHeadersReceived.addListener(
         // Since PDFs are never valid XHTML, the garbage is not going to be
         // rendered. insertviewer.js will quickly replace the document with
         // the PDF.js viewer.
-        {name:'Content-Type',value:'application/xhtml+xml; charset=US-ASCII'},
+        {name:'Content-Type',value:'text/html; charset=UTF-8'},
       ]
     };
   },
